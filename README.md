@@ -8,6 +8,7 @@ Avalonia + Julia interface for cross platform Windows GUI
 - Ubuntu/Unix (need to update some predefined Commands)
 
 ## Demo
+![Alt Text](Akkugif.gif)
 ### Windows
    - Install Julia in C:\Julia\bin\julia.exe 
    - Run Code
