@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AvaloniaAppJulia</id>
+    <version>1.0.0</version>
+    <authors>AvaloniaAppJulia</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="JuliaSharp" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Avalonia" version="0.10.8" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Desktop" version="0.10.8" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.Diagnostics" version="0.10.8" exclude="Build,Analyzers" />
+        <dependency id="Avalonia.ReactiveUI" version="0.10.8" exclude="Build,Analyzers" />
+        <dependency id="LiveChartsCore.SkiaSharpView.Avalonia" version="2.0.0-beta.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\work\TestTamil\Jan16_22\AvaloniaAppJulia\bin\Debug\net5.0\AvaloniaAppJulia.runtimeconfig.json" target="lib\net5.0\AvaloniaAppJulia.runtimeconfig.json" />
+    <file src="D:\work\TestTamil\Jan16_22\AvaloniaAppJulia\bin\Debug\net5.0\AvaloniaAppJulia.dll" target="lib\net5.0\AvaloniaAppJulia.dll" />
+  </files>
+</package>
