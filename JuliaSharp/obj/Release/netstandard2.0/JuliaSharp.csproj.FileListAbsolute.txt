@@ -1,0 +1,8 @@
+D:\work\TestTamil\Jan16_22\JuliaSharp\bin\Release\netstandard2.0\JuliaSharp.deps.json
+D:\work\TestTamil\Jan16_22\JuliaSharp\bin\Release\netstandard2.0\JuliaSharp.dll
+D:\work\TestTamil\Jan16_22\JuliaSharp\obj\Release\netstandard2.0\JuliaSharp.csproj.AssemblyReference.cache
+D:\work\TestTamil\Jan16_22\JuliaSharp\obj\Release\netstandard2.0\JuliaSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\TestTamil\Jan16_22\JuliaSharp\obj\Release\netstandard2.0\JuliaSharp.AssemblyInfoInputs.cache
+D:\work\TestTamil\Jan16_22\JuliaSharp\obj\Release\netstandard2.0\JuliaSharp.AssemblyInfo.cs
+D:\work\TestTamil\Jan16_22\JuliaSharp\obj\Release\netstandard2.0\JuliaSharp.csproj.CoreCompileInputs.cache
+D:\work\TestTamil\Jan16_22\JuliaSharp\obj\Release\netstandard2.0\JuliaSharp.dll
