@@ -23,3 +23,5 @@ Avalonia + Julia interface for cross platform Windows GUI
 - Notepad++ with Julia 
 # Welcome Supporters :)
 
+# 
+Special Thanks to @WangyuHello
