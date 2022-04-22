@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"  
+        x:Class="AvaloniaAppJulia.Views.MainWindow"
+        xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+         xmlns:vms="using:AvaloniaAppJulia.ViewModels"
+        Icon="/Assets/logonew.ico"
+        Title="AvaloniaAppJulia(http://www.piresearchtech.com/)">
+
+
+    <!-- Add button to window -->
+
+	<!--MaxWidth="300" MaxHeight="450" MinWidth="300" MinHeight="450" -->
+
+
+
+	<StackPanel Background="White"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Top"
+				>
+	<Viewbox x:Name="TheViewBox"
+         Stretch="UniformToFill"
+         Grid.Column="1">
+		  <Grid  Width="640"
+					   Height="450"
+					   Background="Black">
+         
+          
+          <lvc:CartesianChart Series="{Binding Series3}"></lvc:CartesianChart>
+        </Grid>
+	  </Viewbox>
+
+
+		<Button Command="{Binding DoTheThing}" Name="button" Click="button_Click">Initialize!</Button>
+      <!-- Removed due to #2983: reinstate when that's fixed.
+              <TextBox Watermark="One Way to Source" UseFloatingWatermark="True" Text="{Binding Path=StringValue, Mode=OneWayToSource}"/>
+            -->
+        
+      </StackPanel>
+
+
+
+   
+ 
+
+
+</Window>
